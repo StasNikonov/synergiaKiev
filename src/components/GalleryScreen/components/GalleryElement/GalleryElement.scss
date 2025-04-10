@@ -1,0 +1,32 @@
+.imageOverlayWrapper{
+  position: relative;
+  display: inline-block;
+
+  .galleryImage{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlayText{
+    position: absolute;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 24px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  &:hover .galleryImage {
+    transform: scale(1.05);
+  }
+
+  &:hover .overlayText {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+.imageOverlayWrapper:hover {
+  cursor: pointer;
+}

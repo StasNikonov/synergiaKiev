@@ -1,0 +1,89 @@
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+
+  input{
+    width: 250px;
+    height: auto;
+    padding: 20px 35px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.09);
+    color: #d3cbcb;
+    font-weight: bold;
+    border: none;
+  }
+
+  input:hover{
+    cursor: pointer;
+    background: rgba(174, 162, 162, 0.09);
+  }
+
+  button{
+    width: 250px;
+    height: auto;
+    padding: 20px 35px;
+    background: #D4C17F;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background: #a69560;
+  }
+
+  .formInputs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .formSubmitButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .toast{
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .formInputs, .formSubmitButton{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .form{
+    align-items: center;
+    input, button{
+      width: 200px;
+      padding: 10px 17px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .form{
+    input, button{
+      width: 175px;
+      padding: 8px 15px;
+      font-size: 12px;
+    }
+
+    .formSubmitButton{
+      .toast{
+        font-size: 10px;
+      }
+    }
+  }
+}

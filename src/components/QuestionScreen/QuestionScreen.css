@@ -1,0 +1,25 @@
+.sectionQuestionScreen {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionQuestionScreen .questionScreen {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sectionQuestionScreen .questionScreen .questionScreenTitle {
+  font-family: "Playfair Display", sans-serif;
+  color: #D4C17F;
+}
+.sectionQuestionScreen .questionScreen .questionForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=QuestionScreen.css.map */

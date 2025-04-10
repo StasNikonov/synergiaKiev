@@ -1,0 +1,26 @@
+.sectionQuestionScreen{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .questionScreen{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .questionScreenTitle{
+      font-family: "Playfair Display", sans-serif;
+      color: #D4C17F;
+    }
+
+    .questionForm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

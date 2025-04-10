@@ -1,0 +1,56 @@
+.sectionViewScreen {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/viewBackground.png");
+}
+.sectionViewScreen .viewScreen {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.sectionViewScreen .viewScreen .viewDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sectionViewScreen .viewScreen .viewDescription .viewTitle {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  color: #D4C17F;
+}
+.sectionViewScreen .viewScreen .viewDescription .viewText {
+  color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .sectionViewScreen .viewScreen {
+    justify-content: space-between;
+  }
+  .sectionViewScreen .viewScreen .viewDescription .viewTitle {
+    font-size: 24px;
+  }
+  .sectionViewScreen .viewScreen .viewDescription .viewText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .sectionViewScreen .viewScreen {
+    width: 80%;
+  }
+  .sectionViewScreen .viewScreen .viewDescription .viewTitle {
+    font-size: 20px;
+  }
+  .sectionViewScreen .viewScreen .viewDescription .viewText {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=ViewScreen.css.map */

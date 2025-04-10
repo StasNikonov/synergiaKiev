@@ -1,0 +1,56 @@
+.sectionMapComponent{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mapComponent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .mapTitle{
+      font-family: "Playfair Display", sans-serif;
+      font-size: 36px;
+      color: #D4C17F;
+    }
+
+    .map{
+      height: 600px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .sectionMapComponent{
+    .mapComponent{
+      .map{
+        height: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionMapComponent{
+    .mapComponent{
+      .map{
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .sectionMapComponent{
+    .mapComponent{
+      .map{
+        height: 350px;
+      }
+    }
+  }
+}

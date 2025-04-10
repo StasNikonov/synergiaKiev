@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.form input {
+  width: 250px;
+  height: auto;
+  padding: 20px 35px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.09);
+  color: #d3cbcb;
+  font-weight: bold;
+  border: none;
+}
+.form input:hover {
+  cursor: pointer;
+  background: rgba(174, 162, 162, 0.09);
+}
+.form button {
+  width: 250px;
+  height: auto;
+  padding: 20px 35px;
+  background: #D4C17F;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+.form button:hover {
+  cursor: pointer;
+  background: #a69560;
+}
+.form .formInputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form .formSubmitButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.form .formSubmitButton .toast {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+@media (max-width: 1000px) {
+  .formInputs, .formSubmitButton {
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  .form {
+    align-items: center;
+  }
+  .form input, .form button {
+    width: 200px;
+    padding: 10px 17px;
+  }
+}
+@media (max-width: 400px) {
+  .form input, .form button {
+    width: 175px;
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .form .formSubmitButton .toast {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=Form.css.map */

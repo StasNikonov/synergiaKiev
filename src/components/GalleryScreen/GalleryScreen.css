@@ -1,0 +1,40 @@
+.section {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section .galleryScreen {
+  width: 50%;
+}
+.section .galleryScreen .galleryTitle {
+  color: #D4C17F;
+  font-family: "Playfair Display", sans-serif;
+}
+.section .galleryScreen .galleryImages {
+  margin-top: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.section .galleryScreen .galleryImages .imagesRow1, .section .galleryScreen .galleryImages .imagesRow2 {
+  display: flex;
+  gap: 70px;
+}
+
+@media (max-width: 1000px) {
+  .section .galleryScreen .galleryImages {
+    margin-top: 25px;
+  }
+  .section .galleryScreen .galleryImages .imagesRow1,
+  .section .galleryScreen .galleryImages .imagesRow2 {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=GalleryScreen.css.map */

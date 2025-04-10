@@ -1,0 +1,42 @@
+.header{
+  width:100%;
+  padding: 40px 0 0 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .navigation{
+    display:flex;
+    gap: 20px;
+
+    .navElement{
+      color: #FFFFFF;
+      font-size: 13px;
+    }
+
+    .navElement:hover{
+      cursor: pointer;
+      color: #d5d3d3;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header{
+    .navigation{
+      gap: 10px;
+      .navElement{
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .header{
+    .navigation{
+      display: none;
+    }
+  }
+}
+
