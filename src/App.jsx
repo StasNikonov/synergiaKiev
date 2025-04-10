@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import 'leaflet/dist/leaflet.css';
 import {Header} from "./components/Header/Header.jsx";
 import {HomeScreen} from "./components/HomeScreen/HomeScreen.jsx";
