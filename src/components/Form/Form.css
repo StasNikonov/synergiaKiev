@@ -55,15 +55,6 @@
   }
 }
 @media (max-width: 700px) {
-  .form {
-    align-items: center;
-  }
-  .form input, .form button {
-    width: 200px;
-    padding: 10px 17px;
-  }
-}
-@media (max-width: 400px) {
   .form input, .form button {
     width: 175px;
     padding: 8px 15px;
